@@ -1,3 +1,21 @@
 //====================================================================================================
+.wrapper {
+   background-color: rgb(90, 48, 48);
+   margin: 0px auto;
+}
+
+.page {
+   position: relative;
+   width: 200px;
+   height: 200px;
+}
+
+.page img {
+   position: absolute;
+   width: 100%;
+   border-radius: 50%;
+   border: 2px solid silver;
+   padding: 5px;
+}
 
 //====================================================================================================
