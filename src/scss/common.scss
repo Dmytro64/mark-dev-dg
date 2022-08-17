@@ -1,1 +1,22 @@
 // Заголовки, общие БЄМ блоки и проче...
+
+
+.button {
+   display: inline-block;
+   color: #fff;
+   padding: rem(20) rem(40);
+   border: 3px solid #3c67e3;
+   border-radius: rem(10);
+}
+
+.button:hover {
+   animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+   0% {
+      box-shadow:
+         0 0 rem(25) #5ddcff,
+         0 0 rem(50) #4e00c2;
+   }
+}
