@@ -29,9 +29,9 @@ $mainColor: rgb(255, 255, 255); // Цвет шрифта по умолчанию
 // Минимальная ширина страницы
 $minWidth: 320;
 // Ширина полотна (макета)
-$maxWidth: 1440;
+$maxWidth: 1920;
 // Ширина ограничивающего контейнера (0 = нет ограничения)
-$maxWidthContainer: 1170;
+$maxWidthContainer: 1440;
 // Общий отступ у контейнера
 // (30 = по 15px слева и справа, 0 = нет отступа)
 $containerPadding: 30;
@@ -77,7 +77,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
-	background-color: rgb(35, 45, 63);
+	background: url('@img/mainbg.jpg') 100% no-repeat;
+	color: #fff;
+
 
 	// Прижимаем footer
 	>main {

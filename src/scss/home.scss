@@ -1,20 +1,67 @@
 //====================================================================================================
 
 .page {
-  
    margin: 0px auto;
    position: relative;
    width: rem(1200);
    height: 200px;
-   background-color: rgb(62, 74, 95);
+   box-shadow: rem(1) rem(10) rem(10)rgba(185, 126, 71, 0.212);
+
 }
 
-.page img {
-   position: absolute;
-   width: 100%;
-   border-radius: 50%;
-   border: 2px solid silver;
-   padding: 5px;
+.page img {}
+
+
+.weather {
+   align-items: center;
+
+
+   &__container {}
+
+   &__body {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      gap: rem(40);
+   }
+
+   &__header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+
+   &__main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: rem(40);
+      margin-right: rem(30);
+   }
+
+   &__city {
+      font-size: rem(40);
+   }
+
+   &__status {
+      font-size: rem(35);
+   }
+
+   &__icon {
+      align-items: center;
+   }
+
+   &__temp {
+      font-size: rem(40);
+   }
+
+   &__feels-like {
+      font-size: rem(25);
+   }
 }
+
+
+
+
 
 //====================================================================================================

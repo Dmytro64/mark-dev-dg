@@ -8,7 +8,23 @@
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
 		<main class="page">
-			<button class="button">button</button>
+
+
+			<div class="weather__container ">
+				<div id="weather" class="weather__body weather">
+					<div class="weather__header">
+						<div class="weather__main">
+							<div class="weather__city"></div>
+							<div class="weather__status"></div>
+						</div>
+						<div class="weather__icon">
+						</div>
+					</div>
+					<div class="weather__temp" value="&deg"></div>
+					<div class="weather__feels-like"></div>
+				</div>
+			</div>
+
 		</main>
 		@@include('html/_footer.htm',{})
 	</div>
